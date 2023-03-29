@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "test-nbdev-vscode"
+  site-url: "https://wbarfuss.github.io/test-nbdev-vscode"
+  description: "test nbdev with vscode"
+  repo-branch: main
+  repo-url: "https://github.com/wbarfuss/test-nbdev-vscode"
