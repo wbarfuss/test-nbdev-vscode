@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "test-nbdev-vscode",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "test-nbdev-vscode",
+    "section": "Install",
+    "text": "Install\npip install test_nbdev_vscode"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "test-nbdev-vscode",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "import numpy as np\nfrom MARLDynamics.Agents.StrategyActorCritic import stratAC\nfrom MARLDynamics.Environments.SocialDilemma import SocialDilemma\nfrom MARLDynamics.Utils import FlowPlot as fp\n\n# Init enviornment and MultiAgentEnvironment-interface\nenv = SocialDilemma(R=1.0, T=0.8, S=-0.5, P=0.0)\nmae = stratAC(env=env, learning_rates=0.1, discount_factors=0.9)\n\n# Plot in phase space\nx = ([0], [0], [0])\ny = ([1], [0], [0])\nax = fp.plot_strategy_flow(mae, x, y, flowarrow_points = np.linspace(0.01 ,0.99, 9))\n\nNo GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)\n\n\n\n\n\n\nsource\n\nfoo\n\n foo ()\n\nWhat is one plus three?\n\n1+3\n\n4\n\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n\nx = np.random.randn(100)\ny = np.random.randn(100)\n\nplt.scatter(x, y)\n\n<matplotlib.collections.PathCollection>"
+  }
+]
